@@ -127,7 +127,7 @@ try:
     time.sleep(3)
     pop_window['開啟(O)'].click()
 except Exception as e:
-    print(f"操作失败: {e}")
+    print(f"檔案上傳失敗!: {e}")
 
 time.sleep(3)
 
