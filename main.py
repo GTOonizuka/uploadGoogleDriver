@@ -26,7 +26,7 @@ options.add_experimental_option("prefs",{"credentials_enable_service":False,"pro
 
 #gmail帳號
 account_email = ""
-#gmail信箱
+#gmail密碼
 password = ''
 #圖片檔案位置輸入範例:"C:\\圖片\\test.jpg"
 file_path = ''
@@ -116,7 +116,7 @@ upload_button.click()
 
 time.sleep(3)
 
-#檔案上傳框口連接
+#檔案上傳窗口連接
 app = Application(backend='win32').connect(title='開啟')
 pop_window = app['開啟']
 
